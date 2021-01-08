@@ -1,5 +1,4 @@
 while True :
-  Facture = 1
   Nbp = int(input("entrer le nombre des pages : ")) # saisis de nobre de pages
   if Nbp <= 10 and Nbp > 0 :
       Facture = 0.5 * Nbp
